@@ -1,0 +1,14 @@
+{
+  "name": "assistball",
+  "version": "1.0.0",
+  "description": "AssistBall - always-on-screen AI assistant with draggable floating ball",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "backend": "python backend/main.py"
+  },
+  "dependencies": {
+    "electron": "^39.2.7"
+  }
+}
